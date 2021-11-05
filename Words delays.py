@@ -14,3 +14,7 @@ class word:
             sys.stdout.flush()
         time.sleep(.1)
         return ""
+    
+word.write("Line 1")
+word.write("Line 2")
+word.write2(" Still line 2")
